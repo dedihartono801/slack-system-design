@@ -1,7 +1,7 @@
 # Chat Realtime System Design - Flow Phases
 
 ## Diagram
-![alt text](https://github.com/dedihartono801/slack-system-design/blob/master/system-design.jpg)
+![alt text](https://github.com/dedihartono801/slack-system-design/blob/master/diagram.png)
 
 ## Functional Requirements
 
@@ -170,4 +170,4 @@ The Clean Up Cronjob plays a vital role in database optimization regarding the `
 **Idempotency:** Each message is assigned a unique UUID by the client or Gateway. The database uses a unique constraint on this ID to prevent duplicate messages in case of network retries.
 
 ## Table
-![alt text](https://github.com/dedihartono801/slack-system-design/blob/master/table.jpg)
+![alt text](https://github.com/dedihartono801/slack-system-design/blob/master/table.png)

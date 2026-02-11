@@ -1,6 +1,6 @@
 # Chat Realtime System Design - Flow Phases
 
-## Link excalidraw: https://excalidraw.com/#json=l_bdevEyJiQpgMxycMUqU,R9ihfqeUtHj8gW5DKwQpjg
+Link excalidraw: https://excalidraw.com/#json=l_bdevEyJiQpgMxycMUqU,R9ihfqeUtHj8gW5DKwQpjg
 
 ## Diagram
 ![alt text](https://github.com/dedihartono801/slack-system-design/blob/master/diagram.png)

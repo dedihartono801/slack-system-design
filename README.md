@@ -1,5 +1,8 @@
 # Chat Realtime System Design - Flow Phases
 
+## Diagram
+![alt text](https://github.com/dedihartono801/slack-system-design/blob/master/system-design.jpg)
+
 ## Functional Requirements
 
 ### Users can send and receive messages in 1:1 or group chats
@@ -165,3 +168,6 @@ The Clean Up Cronjob plays a vital role in database optimization regarding the `
 **Causal Ordering:** By using `hash(chat_id)` to select a Kafka partition, we guarantee that all messages within a specific conversation are processed by the same consumer in the exact order they were sent.
 
 **Idempotency:** Each message is assigned a unique UUID by the client or Gateway. The database uses a unique constraint on this ID to prevent duplicate messages in case of network retries.
+
+## Table
+![alt text](https://github.com/dedihartono801/slack-system-design/blob/master/table.jpg)
